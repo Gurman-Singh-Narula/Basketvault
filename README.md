@@ -1,6 +1,6 @@
 # BasketVault - Sneaker Authentication Platform
 
-![BasketVault Logo](https://placeholder-for-logo.com/logo.png) <!-- Replace with actual logo image URL when available -->
+
 
 ## 📝 Description
 
