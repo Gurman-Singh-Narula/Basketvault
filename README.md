@@ -32,7 +32,7 @@ BasketVault is a web-based platform that helps users verify the authenticity of 
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/basketvault.git
+   git clone https://github.com/Gurman-Singh-Narula/basketvault.git
    ```
 
 2. Navigate to the project directory
@@ -70,7 +70,7 @@ BasketVault is a web-based platform that helps users verify the authenticity of 
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/basketvault/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Gurman-Singh-Narula/basketvault/issues).
 
 ## 📄 License
 
