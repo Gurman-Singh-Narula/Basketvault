@@ -54,7 +54,7 @@ BasketVault is a web-based platform that helps users verify the authenticity of 
 
 ## 📷 Screenshots
 
-![Homepage](https://placeholder-for-screenshot.com/homepage.png)
+![Homepage]Screenshot 2025-04-30 232400.png
 ![Authentication Page](https://placeholder-for-screenshot.com/auth-page.png)
 ![Product Showcase](https://placeholder-for-screenshot.com/showcase.png)
 
