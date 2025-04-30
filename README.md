@@ -78,6 +78,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Your Name - [your.email@example.com](mailto:your.email@example.com)
+Your Name - [narulagurman2406@gmail.com](mailto:your.email@example.com)
 
-Project Link: [https://github.com/yourusername/basketvault](https://github.com/yourusername/basketvault)
+Project Link: [https://github.com/Gurman-Singh-Narula/basketvault](https://github.com/yourusername/basketvault)
