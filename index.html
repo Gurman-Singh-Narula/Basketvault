@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BasketVault - Verify the authenticity of your premium sneakers with our cutting-edge technology">
+    <title>BasketVault - Authenticate Your Sneakers</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <header>
+        <nav class="navbar" aria-label="Main navigation">
+            <div class="logo">
+                <div class="logo-circle">
+                    <i class="fas fa-check" aria-hidden="true"></i>
+                </div>
+                <h1>BasketVault</h1>
+            </div>
+            <div class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#featured">Shop</a></li>
+                    <li><a href="#verify">Verify</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <div class="search-bar" role="search">
+                    <input type="text" placeholder="Search..." aria-label="Search products">
+                    <button type="submit" class="search-button" aria-label="Submit search">
+                        <i class="fas fa-search" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <a href="#cart" class="cart-icon" aria-label="Shopping cart">
+                    <i class="fas fa-shopping-bag" aria-hidden="true"></i>
+                </a>
+            </div>
+            <button class="burger" aria-label="Toggle menu" aria-expanded="false">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Authenticate Your <span class="highlight">Sneakers</span> With Confidence</h1>
+                <p>Verify the authenticity of your premium sneakers with our cutting-edge technology.</p>
+                <div class="cta-buttons">
+                    <button class="btn primary">Shop Now <i class="fas fa-arrow-right"></i></button>
+                    <button class="btn secondary">Verify Now</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1587&q=80" alt="Premium Sneakers">
+            </div>
+        </section>
+
+        <section id="featured" class="featured-sneakers">
+            <h2 class="section-title">Featured Sneakers</h2>
+            <div class="sneakers-grid">
+                <!-- First row -->
+                <div class="sneaker-card">
+                    <div class="sneaker-badge new">New</div>
+                    <img src="https://images.unsplash.com/photo-1605408499391-6368c628ef42?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Nike Air Max 90">
+                    <div class="sneaker-controls">
+                        <button class="quick-view"><i class="fas fa-eye"></i> Quick View</button>
+                        <button class="more-info"><i class="fas fa-info-circle"></i> More Info</button>
+                        <button class="authenticate"><i class="fas fa-shield-alt"></i> Authenticate</button>
+                    </div>
+                    <div class="sneaker-info">
+                        <div class="brand">Nike</div>
+                        <div class="model">Air Max 90</div>
+                        <div class="price">$129.99</div>
+                    </div>
+                </div>
+                <div class="sneaker-card">
+                    <div class="sneaker-badge featured">Featured</div>
+                    <img src="https://images.unsplash.com/photo-1600269452121-4f2416e55c28?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Adidas Yeezy Boost 350">
+                    <div class="sneaker-controls">
+                        <button class="quick-view"><i class="fas fa-eye"></i> Quick View</button>
+                        <button class="more-info"><i class="fas fa-info-circle"></i> More Info</button>
+                        <button class="authenticate"><i class="fas fa-shield-alt"></i> Authenticate</button>
+                    </div>
+                    <div class="sneaker-info">
+                        <div class="brand">Adidas</div>
+                        <div class="model">Yeezy Boost 350</div>
+                        <div class="price">$219.99</div>
+                    </div>
+                </div>
+                <div class="sneaker-card">
+                    <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Reebok Classic Leather">
+                    <div class="sneaker-controls">
+                        <button class="quick-view"><i class="fas fa-eye"></i> Quick View</button>
+                        <button class="more-info"><i class="fas fa-info-circle"></i> More Info</button>
+                        <button class="authenticate"><i class="fas fa-shield-alt"></i> Authenticate</button>
+                    </div>
+                    <div class="sneaker-info">
+                        <div class="brand">Reebok</div>
+                        <div class="model">Classic Leather</div>
+                        <div class="price">$89.99</div>
+                    </div>
+                </div>
+                <div class="sneaker-card">
+                    <img src="https://images.unsplash.com/photo-1607522370275-f14206abe5d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Converse Chuck Taylor">
+                    <div class="sneaker-controls">
+                        <button class="quick-view"><i class="fas fa-eye"></i> Quick View</button>
+                        <button class="more-info"><i class="fas fa-info-circle"></i> More Info</button>
+                        <button class="authenticate"><i class="fas fa-shield-alt"></i> Authenticate</button>
+                    </div>
+                    <div class="sneaker-info">
+                        <div class="brand">Converse</div>
+                        <div class="model">Chuck Taylor</div>
+                        <div class="price">$59.99</div>
+                    </div>
+                </div>
+                
+                <!-- Second row - added from the image -->
+                <div class="sneaker-card">
+                    <div class="sneaker-badge new">New</div>
+                    <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Vans Old Skool">
+                    <div class="sneaker-controls">
+                        <button class="quick-view"><i class="fas fa-eye"></i> Quick View</button>
+                        <button class="more-info"><i class="fas fa-info-circle"></i> More Info</button>
+                        <button class="authenticate"><i class="fas fa-shield-alt"></i> Authenticate</button>
+                    </div>
+                    <div class="sneaker-info">
+                        <div class="brand">Vans</div>
+                        <div class="model">Old Skool</div>
+                        <div class="price">$69.99</div>
+                    </div>
+                </div>
+                <div class="sneaker-card">
+                    <div class="sneaker-badge featured">Featured</div>
+                    <img src="https://images.unsplash.com/photo-1512374382149-233c42b6a83b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Puma Suede Classic">
+                    <div class="sneaker-controls">
+                        <button class="quick-view"><i class="fas fa-eye"></i> Quick View</button>
+                        <button class="more-info"><i class="fas fa-info-circle"></i> More Info</button>
+                        <button class="authenticate"><i class="fas fa-shield-alt"></i> Authenticate</button>
+                    </div>
+                    <div class="sneaker-info">
+                        <div class="brand">Puma</div>
+                        <div class="model">Suede Classic</div>
+                        <div class="price">$79.99</div>
+                    </div>
+                </div>
+                <div class="sneaker-card">
+                    <img src="https://images.unsplash.com/photo-1597045566677-8cf032ed6634?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Nike Jordan 1 Retro">
+                    <div class="sneaker-controls">
+                        <button class="quick-view"><i class="fas fa-eye"></i> Quick View</button>
+                        <button class="more-info"><i class="fas fa-info-circle"></i> More Info</button>
+                        <button class="authenticate"><i class="fas fa-shield-alt"></i> Authenticate</button>
+                    </div>
+                    <div class="sneaker-info">
+                        <div class="brand">Nike</div>
+                        <div class="model">Jordan 1 Retro</div>
+                        <div class="price">$169.99</div>
+                    </div>
+                </div>
+                <div class="sneaker-card">
+                    <img src="https://images.unsplash.com/photo-1588361861040-ac9b1018f6d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Adidas Ultraboost">
+                    <div class="sneaker-controls">
+                        <button class="quick-view"><i class="fas fa-eye"></i> Quick View</button>
+                        <button class="more-info"><i class="fas fa-info-circle"></i> More Info</button>
+                        <button class="authenticate"><i class="fas fa-shield-alt"></i> Authenticate</button>
+                    </div>
+                    <div class="sneaker-info">
+                        <div class="brand">Adidas</div>
+                        <div class="model">Ultraboost</div>
+                        <div class="price">$179.99</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="verify" class="verification">
+            <h2 class="section-title">Verify Your Sneakers</h2>
+            <p class="section-description">Enter your authentication code or scan the QR code to instantly verify if your sneakers are genuine.</p>
+            
+            <div class="verification-container">
+                <div class="verification-card">
+                    <h3>Verify Authenticity</h3>
+                    <p>Enter the product code or scan the QR code to verify your sneakers</p>
+                    
+                    <div class="verify-tabs" role="tablist" aria-label="Verification Methods">
+                        <button class="tab-btn active" role="tab" aria-selected="true" data-tab="code" id="tab-code">Enter Code</button>
+                        <button class="tab-btn" role="tab" aria-selected="false" data-tab="qr" id="tab-qr">Scan QR</button>
+                    </div>
+                    
+                    <div class="tab-content active" data-tab="code" role="tabpanel" aria-labelledby="tab-code">
+                        <div class="verification-form">
+                            <input type="text" placeholder="Enter verification code" class="verification-input" aria-label="Verification code">
+                            <button class="btn primary verify-btn">Verify</button>
+                        </div>
+                        <p class="verification-note">Enter the unique code found on your product tag or packaging</p>
+                    </div>
+                    
+                    <div class="tab-content" data-tab="qr" role="tabpanel" aria-labelledby="tab-qr">
+                        <div class="qr-scanner-container">
+                            <div class="qr-placeholder">
+                                <i class="fas fa-qrcode" aria-hidden="true"></i>
+                                <p>Tap to activate camera</p>
+                            </div>
+                            <button class="btn primary scan-btn">Scan QR Code</button>
+                        </div>
+                    </div>
+                    
+                    <a href="#support" class="support-link">Having trouble? Contact support</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="testimonials-container">
+                <div class="testimonial-card">
+                    <div class="customer">
+                        <div class="customer-image">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Customer">
+                        </div>
+                        <div class="customer-name">Alex Johnson</div>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"BasketVault saved me from buying fake Air Jordans. The verification process was quick and accurate!"</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="customer">
+                        <div class="customer-image">
+                            <img src="https://randomuser.me/api/portraits/women/29.jpg" alt="Customer">
+                        </div>
+                        <div class="customer-name">Sarah Williams</div>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"As a collector, authenticity is everything. This platform gives me peace of mind with every purchase."</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="customer">
+                        <div class="customer-image">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Customer">
+                        </div>
+                        <div class="customer-name">Michael Chen</div>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"The QR scanning feature is so convenient. I can verify my sneakers anywhere, anytime!"</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="newsletter" class="newsletter">
+            <h2 class="section-title">Stay Updated</h2>
+            <p class="newsletter-text">Subscribe to our newsletter for the latest drops and authentication tips.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email" class="newsletter-input">
+                <button type="submit" class="btn primary">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="logo footer-logo">
+                    <div class="logo-circle">
+                        <i class="fas fa-check" aria-hidden="true"></i>
+                    </div>
+                    <h3>BasketVault</h3>
+                </div>
+                <p>Your trusted source for sneaker authentication and premium footwear.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Shop</h3>
+                <ul>
+                    <li><a href="#new-arrivals">New Arrivals</a></li>
+                    <li><a href="#best-sellers">Best Sellers</a></li>
+                    <li><a href="#brands">Brands</a></li>
+                    <li><a href="#sale">Sale</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#faqs">FAQs</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#shipping">Shipping</a></li>
+                    <li><a href="#returns">Returns</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 BasketVault. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
